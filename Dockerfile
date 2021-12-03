@@ -18,4 +18,5 @@ RUN chown web_user:web_user \
 COPY ./config/nginx_default.conf /etc/nginx/http.d/nginx_default.conf
 COPY ./src /home/web_user/www
 CMD ["nginx", "-g", "daemon off;"]
-//test
+
+//test//;;;;
